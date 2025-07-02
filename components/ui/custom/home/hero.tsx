@@ -5,7 +5,7 @@ export default function Hero() {
 	return (
 		<div className="flex justify-between md:items-center items-end md:h-[600px] h-[550px] md:px-0 px-4 -z-20">
 			<div className="max-w-[700px] mx-auto space-y-5">
-				<div className="bg-primary px-2 py-1 rounded-md font-poppins font-regular text-md md:w-fit w-40 md:mx-0 mx-auto">
+				<div className="bg-primary px-2 py-1 rounded-md font-poppins font-regular text-md md:w-fit w-48 md:mx-0 mx-auto">
 					Perfection Immaculée
 				</div>
 				<h1 className="md:text-5xl text-4xl font-semibold md:leading-14 md:text-start text-center">

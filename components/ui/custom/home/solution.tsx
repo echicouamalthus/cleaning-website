@@ -18,7 +18,7 @@ export default function Solution() {
 
 			<div className="grid md:grid-cols-2 gap-4">
 				<div className="flex flex-col gap-2">
-					<div className="bg-secondary text-white p-5 md:h-60 h-80 flex flex-col justify-between items-start rounded-md">
+					<div className="bg-secondary text-white p-5 md:h-60 h-60 flex flex-col justify-between items-start rounded-md">
 						<div className="space-y-4">
 							<h1 className="text-2xl font-medium">Nettoyage résidentiel</h1>
 							<p>
@@ -31,7 +31,7 @@ export default function Solution() {
 							En savoir plus
 						</button>
 					</div>
-					<div className="bg-secondary text-white p-5 md:h-60 h-80 flex flex-col justify-between items-start rounded-md">
+					<div className="bg-secondary text-white p-5 md:h-60 h-60 flex flex-col justify-between items-start rounded-md">
 						<div className="space-y-4">
 							<h1 className="text-2xl font-medium">Nettoyage commercial</h1>
 							<p>
@@ -46,7 +46,7 @@ export default function Solution() {
 					</div>
 				</div>
 
-				<div className="relative md:h-full h-60">
+				<div className="relative md:h-full md:h-60 h-96">
 					<Image
 						className="absolute size-full object-cover rounded-md"
 						src={

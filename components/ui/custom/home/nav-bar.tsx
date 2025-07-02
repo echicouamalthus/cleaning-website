@@ -63,7 +63,7 @@ export default function NavBar() {
 
 			{/* Mobile Menu */}
 			<div
-				className={`fixed top-[0px] left-0 right-0 bg-white shadow-md transform transition-transform duration-300 ease-in-out -z-10 md:hidden ${
+				className={`fixed top-[0px] left-0 right-0 bg-white shadow-md transform transition-transform duration-300 ease-in-out -z-30 md:hidden ${
 					menuOpen ? 'translate-y-20' : '-translate-y-full'
 				}`}
 			>

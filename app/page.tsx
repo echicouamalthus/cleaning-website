@@ -24,24 +24,27 @@ import {
 	AccordionTrigger,
 } from '@/components/ui/accordion';
 
+import logo_1 from '@/public/icons/logoipsum-368.png';
+import logo_2 from '@/public/icons/logoipsum-376.png';
+import logo_3 from '@/public/icons/logoipsum-377.png';
+import logo_4 from '@/public/icons/logoipsum-381.png';
+import logo_5 from '@/public/icons/logoipsum-383.png';
+
 const partners = [
 	{
-		logo: 'https://img.logoipsum.com/360.svg',
+		logo: logo_1,
 	},
 	{
-		logo: 'https://img.logoipsum.com/367.svg',
+		logo: logo_2,
 	},
 	{
-		logo: 'https://img.logoipsum.com/343.svg',
+		logo: logo_3,
 	},
 	{
-		logo: 'https://img.logoipsum.com/250.svg',
+		logo: logo_4,
 	},
 	{
-		logo: 'https://img.logoipsum.com/342.svg',
-	},
-	{
-		logo: 'https://img.logoipsum.com/337.svg',
+		logo: logo_5,
 	},
 ];
 
@@ -99,8 +102,8 @@ export default function Home() {
 								<Image
 									className="saturate-0"
 									src={e.logo}
-									width={200}
-									height={200}
+									width={80}
+									height={80}
 									alt="les partenaires de confiances"
 								/>
 							</div>
